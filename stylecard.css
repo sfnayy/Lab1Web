@@ -93,3 +93,32 @@ body.dark-mode .sosmed a {
 body.dark-mode .sosmed a:hover {
   color: #00aaff;
 }
+
+#toggle-theme {
+  padding: 8px 16px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#toggle-theme:hover {
+  background-color: #666;
+  transform: scale(1.05);
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.sosmed a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.sosmed a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
