@@ -44,3 +44,15 @@ body {
   color: #0056b3;
   transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sosmed a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
