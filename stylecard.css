@@ -56,3 +56,40 @@ body {
     margin-left: 10px;
   }
 }
+
+#toggle-theme {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#toggle-theme:hover {
+  background-color: #0056b3;
+}
+
+body.dark-mode {
+  background: linear-gradient(to right, #1c1c1c, #333);
+  color: white;
+}
+
+body.dark-mode .profile-card {
+  background: #2c2c2c;
+  color: white;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .sosmed a {
+  color: #00c3ff;
+}
+
+body.dark-mode .sosmed a:hover {
+  color: #00aaff;
+}

@@ -8,6 +8,7 @@
     </head>
 
     <body>
+        <button id="toggle-theme">Ganti Tema</button>
         <div class="container">
             <div class="profile-card">
                 <img src="img/Jonggun _ Lookism (519).jpg" alt="foto sofyan" class="profile-img">
@@ -22,5 +23,12 @@
                 </div>
             </div>
         </div>
+        <script>
+            const toggleBtn = document.getElementById("toggle-theme");
+
+            toggleBtn.addEventListener("click", function() {
+                document.body.classList.toggle("dark-mode");
+            });
+        </script>
     </body>
 </html>
